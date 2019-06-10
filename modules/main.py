@@ -1,4 +1,6 @@
 import os
+import sys
+print (sys.path)
 from sub_module1.sub1 import sub_fun1
 import sub_module2.sub2
 if __name__ == '__main__':
